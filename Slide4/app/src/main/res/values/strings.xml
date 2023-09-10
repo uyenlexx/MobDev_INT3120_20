@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Essentials of Developing Android 5.0</string>
+
+    <string name="name_hint">Enter your Name</string>
+    <string name="phone_hint">Enter your phone number</string>
+
+    <string name="cheese">Cheese</string>
+    <string name="doubleCheese">2 x Cheese</string>
+    <string name="none">None</string>
+    <string name="square">Square</string>
+    <string name="round">Round</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="mushroom">Mushroom</string>
+    <string name="veggies">Veggies</string>
+
+    <string name="order">Your ordering:</string>
+    <string name="sms">SMS - PLACE YOUR ORDER</string>
+    <string name="exit">EXIT</string>
+</resources>

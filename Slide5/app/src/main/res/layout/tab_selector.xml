@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TabHost android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TabWidget
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <FrameLayout
+            android:id="@+id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <AnalogClock
+                android:id="@+id/tab1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/tab2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/lblDateAndTime"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60px"
+                    android:background="#ff000099"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    />
+                <EditText
+                    android:id="@+id/txtPerson"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Enter your name"
+                    android:textSize="50dp"/>
+            </LinearLayout>
+        </FrameLayout>
+    </TabHost>
+</LinearLayout>

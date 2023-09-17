@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_home2"
+        android:title="@string/home"
+        android:icon="@drawable/ic_menu_home"
+        android:orderInCategory="100"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/menu_profile2"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_menu_user"
+        android:orderInCategory="100"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/menu_settings2"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_menu_settings"
+        android:orderInCategory="100"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/menu_search2"
+        android:title="@string/search"
+        android:icon="@drawable/ic_menu_search"
+        android:orderInCategory="100"
+        app:showAsAction="collapseActionView">
+        <menu>
+            <item
+                android:id="@+id/search_1_2"
+                android:title="@string/search"/>
+            <item
+                android:id="@+id/search_2_2"
+                android:title="@string/search"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_exit2"
+        android:title="@string/exit"
+        android:orderInCategory="100"
+        app:showAsAction="withText"/>
+</menu>

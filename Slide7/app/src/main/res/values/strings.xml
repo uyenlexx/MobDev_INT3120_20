@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Slide7</string>
+
+    <string name="send">SEND MESSAGE TO GREETINGACTIVITY</string>
+    <string name="feedback1">Feedback from GreetingActivity:</string>
+    <string name="feedback2">((Feedback))</string>
+    <string name="message1">Message sent from MainActivity:</string>
+    <string name="message2">((Message))</string>
+</resources>

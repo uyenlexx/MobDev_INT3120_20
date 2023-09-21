@@ -39,4 +39,15 @@
         android:title="@string/exit"
         android:orderInCategory="100"
         app:showAsAction="withText"/>
+    <item
+        android:id="@+id/menu_activity2"
+        android:title="Homework1"
+        android:orderInCategory="100"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/menu_activity3"
+        android:title="Homework2"
+        android:orderInCategory="100"
+        app:showAsAction="withText"/>
+
 </menu>

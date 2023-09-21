@@ -10,4 +10,29 @@
     <string name="upload">Upload</string>
     <string name="bookmark">Bookmark</string>
     <string name="Share">Share</string>
+
+    <string name="welcome">Welcome Homer!</string>
+    <string name="please_give_generously">Please Give Generously</string>
+    <string name="paypal">Paypal</string>
+    <string name="direct">Direct</string>
+    <string name="donate">DONATE</string>
+    <string name="amount">Amount</string>
+    <string name="total_so_far">Total so Far $</string>
+
+    <string name="setting">Setting</string>
+
+    <string name="name_hint">Enter your Name</string>
+    <string name="phone_hint">Enter your phone number</string>
+
+    <string name="cheese">Cheese</string>
+    <string name="doubleCheese">2 x Cheese</string>
+    <string name="none">None</string>
+    <string name="square">Square</string>
+    <string name="round">Round</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="mushroom">Mushroom</string>
+    <string name="veggies">Veggies</string>
+
+    <string name="order">Your ordering:</string>
+    <string name="sms">SMS - PLACE YOUR ORDER</string>
 </resources>

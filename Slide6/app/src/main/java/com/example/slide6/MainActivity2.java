@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.view.menu.MenuBuilder;
 
 public class MainActivity2 extends AppCompatActivity {
     @Override
@@ -26,6 +27,7 @@ public class MainActivity2 extends AppCompatActivity {
         MenuInflater inflater = getMenuInflater();
         menu.setHeaderTitle("Context Menu");
         inflater.inflate(R.menu.context_menu, menu);
+        
     }
 
     @Override

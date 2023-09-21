@@ -5,6 +5,7 @@ import androidx.appcompat.view.menu.MenuBuilder;
 import androidx.core.view.MenuItemCompat;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Intent intent = new Intent();
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -35,6 +37,14 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Home", Toast.LENGTH_SHORT).show();
                 else if (itemId == R.id.menu_exit)
                     Toast.makeText(MainActivity.this, "Exit", Toast.LENGTH_SHORT).show();
+                else if (itemId == R.id.menu_activity2) {
+                    Intent intent1 = new Intent(MainActivity.this, SecondActivity.class);
+                    startActivity(intent1);
+                }
+                else if (itemId == R.id.menu_activity3) {
+                    Intent intent2 = new Intent(MainActivity.this, ThirdActivity.class);
+                    startActivity(intent2);
+                }
                 return false;
             }
         });

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Slide10</string>
+    <string name="hintText">username</string>
+    <string name="heading">Content Provider Example</string>
+    <string name="insertButtontext">Insert Data</string>
+    <string name="loadButtonText">Load Data</string>
+</resources>
